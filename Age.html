@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Age Caalculator</title>
+    <link rel="stylesheet" href="Age.css">
+</head>
+<body>
+    <!-- First create div tag .that  will id center -->
+    <div id="center"></div>
+    <!-- 
+        I create inside container.that id container
+        in this inside create h1-tag.that name is h1.
+      -->
+      <div id="container">
+          <h1 id="h1"> Age calculator</h1>
+          <!-- in this create inside container using div tag will id birthDate .in that I have used  -->
+          <div id="birthdate">
+              <!-- I keep name of label tag is label_enter -->
+              <label  id="label_enter">Date of birth:</label>
+              <!-- I create inside one container using div tag iput box.that id will inp_box -->
+              <div id="inp_box">
+                   <!--I created three input   -->
+                   <input type="number" class="birth_inp" id="day" placeholder="dd">
+                   <input type="number" class="birth_inp" id="month" placeholder="mon">
+                   <input type="number" class="birth_inp" id="year" placeholder="yyyy">
+              </div>
+          </div>
+          <!-- I craeted div tag.that will id out box -->
+          <div id="out_box">
+              <!-- in that inside create span tag -->
+              <span class="out_sp" id="sp_year">YYYY</span>
+              <!-- this span tag is used for text horizontal in inside span tag  -->
+              <span id="p_out">Year</span>
+              <span class="out_sp" id="sp_month">MM</span>
+              <span id="p_out">Month</span>
+              <span class="out_sp" id="sp_day">DD</span>
+              <span id="p_out">Day</span>
+          </div>
+          <!-- I created button.that id will sub btn  -->
+          <button id="Sub_btn">Calculate</button>
+
+          
+      </div>
+      <script src="Age.js"></script>
+</body>
+</html>
