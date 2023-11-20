@@ -1,0 +1,54 @@
+body{
+    /* this is used for background */
+    background-color: aqua;
+
+}
+#container{
+    /* First we want to take div tag that id will container */
+    /* border: 1px solid black; */
+
+    /* this is use for To do Text container width   */
+    width: 360px;
+    /* this is used for to do text container padding. that increase or decrease inside size of container */
+    padding: 33px;
+    /* This is used for all text allign according to user */
+    text-align: center;
+    /* This is used for background color of container */
+    background-color: antiquewhite;
+    /* this is for take container in center */
+    margin-left: 33%;
+    /*this is used for take down container  */
+    margin-top: 100px;
+   
+
+}
+
+#inp{
+    /* this is used for input container */
+    /* this is used for container border of input */
+    border: 2px solid rgb(152, 163, 163);
+/* this is used for increase or decrease width of container */
+    width: 270px;
+    /* This is used for increase or decrease inside size of container */
+    padding: 8px;
+    /*  */
+    /* outline: none; */
+    /*  */
+}
+#button{
+    /* this is for button */
+    /* this is used for increase or decrease width of button container  */
+    width: 60px;
+    /* this is used for height */
+    height: 41px;
+    background-color: rgb(55, 83, 83);
+    /* this is for text color */
+    color: white;
+    /* this is used for fetch all side of container */
+    border-radius: 2px;
+    /* This is used for increase or decrease size of text */
+    font-size: 19px;
+/* this is used for remove border of container */
+    border: none;
+    outline: none;
+}

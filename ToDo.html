@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="ToDo.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+
+<!-- We want to take container . in that we can add all contain. so we will use div tag for that -->
+<!-- of that id will container -->
+
+<div id="container">
+    <!-- We want to take h1 tag .for return text To do list. also you can take any heading tag according to you -->
+
+    <h1>To Do List</h1>
+
+    <!-- we want to need of input .so we want to  need one  container for declaring input. we want to take again div tag.  -->
+     <!-- this id will be inputs -->
+     <div id="input">
+     <!-- for entering input we want to take input tag.   -->
+     <!-- in input we want to use input attribute placeholder .which  say to user enter data according placeholder -->
+
+     <input type=".text" placeholder="Enter your data" id="inp" >
+     <!--when we want to add some data . we want to need add button .so we want to take button tag  -->
+     <!-- only using we cannot add input .we want to give some functionality add button. -->
+     <!-- so we take onclick event for add button -->
+     <button onclick="Add()" id="button">Add </button>
+  
+     </div>
+     <!-- we want to add some text. we want to need another container . so we want to use div tag . -->
+     <!-- for creating container -->
+     <!-- This container will empty . because user will enter any text .that will add -->
+     <div class="text" >
+
+     </div>
+</div>
+
+    <script src="ToDo.js"></script>
+</body>
+</html>
